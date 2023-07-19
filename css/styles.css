@@ -785,3 +785,38 @@ body {
     color: var(--dark);
     resize: none;
 }
+
+.modal-field-checkbox {
+}
+
+.check-text {
+    color: var(--subtle-text);
+    font-size: 12px;
+    line-height: 1.16; 
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+}
+
+.privacy-li {
+    color: var(--primary-brand);
+}
+
+.check-text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    margin-right: 8px;
+    fill: transparent;
+}
+
+.modal-check:checked + .check-text span {
+    background-color: var(--primary-brand);
+    border: none;
+    fill: var(--light);
+}
+
