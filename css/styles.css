@@ -872,15 +872,13 @@ body {
     font-size: 12px;
     line-height: 1.17; 
     letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
 }
 
 .privacy-li {
     color: var(--primary-brand);
 }
 
-.check-text .check-span {
+.check-span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
