@@ -73,7 +73,6 @@ body {
 /* ---------------- HEADER --------------- */
 
 .header {
-   padding: 24px 0;
    border-bottom: 1px solid #e7e9fc;
    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -85,6 +84,7 @@ body {
 
 .header-navigation {
     display: flex;
+    align-items: center;
     flex-grow: 1;
 }
 
@@ -130,6 +130,7 @@ body {
 
 
 .header-menu-link {
+    display: block;
     padding: 24px 0;
     color: var(--dark);
     font-size: 16px;
@@ -146,6 +147,7 @@ body {
 
 .header-adress {
     font-style: normal;
+    display: flex;
     align-items: center;
 }
 
